@@ -1,0 +1,414 @@
+{
+	"info": {
+		"_postman_id": "56548549-c26d-41c6-8894-a3e556dfb611",
+		"name": "Lumen-Rest-Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17161589"
+	},
+	"item": [
+		{
+			"name": "Chart_Data_Table",
+			"item": [
+				{
+					"name": "ChartDataSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/ChartDataSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"ChartDataSelect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Client_Review_Table",
+			"item": [
+				{
+					"name": "ClientReviewSelect",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Osman Goni\",\r\n    \"email\":\"gonihales@gmail.com\",\r\n    \"message\":\"Hello, How are you?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/ClientReviewSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"ClientReviewSelect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contact_Table",
+			"item": [
+				{
+					"name": "ContactDataInsert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Shakib Hasan Shah\",\r\n    \"email\":\"shakib12@gmail.com\",\r\n    \"message\":\"Hey, I am a Handsome Boy\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/ContactDataInsert",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"ContactDataInsert"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Courses_Table",
+			"item": [
+				{
+					"name": "CourseHomeSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/CourseHomeSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"CourseHomeSelect"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CourseAllSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/CourseAllSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"CourseAllSelect"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CourseDetailsSelect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/CourseDetailsSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"CourseDetailsSelect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Footer_Table",
+			"item": [
+				{
+					"name": "FooterSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/FooterSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"FooterSelect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Information_Etc_Table",
+			"item": [
+				{
+					"name": "InformationSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/InformationSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"InformationSelect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Services_Table",
+			"item": [
+				{
+					"name": "ServiceSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/ServiceSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"ServiceSelect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Projects_Table",
+			"item": [
+				{
+					"name": "ProjectHomeSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/ProjectHomeSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"ProjectHomeSelect"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProjectAllSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/ProjectAllSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"ProjectAllSelect"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProjectDetailsSelect",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/ProjectDetailsSelect",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"ProjectDetailsSelect"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Home_Etc_table",
+			"item": [
+				{
+					"name": "SelectVideoHome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/SelectVideoHome",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"SelectVideoHome"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SelectTotalProjectClient",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/SelectTotalProjectClient",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"SelectTotalProjectClient"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SelectTechDescription",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/SelectTechDescription",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"SelectTechDescription"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SelectHomeTopTitle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://lumenapi.gonihales.xyz/SelectHomeTopTitle",
+							"protocol": "https",
+							"host": [
+								"lumenapi",
+								"gonihales",
+								"xyz"
+							],
+							"path": [
+								"SelectHomeTopTitle"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
