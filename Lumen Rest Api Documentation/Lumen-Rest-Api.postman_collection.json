@@ -44,7 +44,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"Osman Goni\",\r\n    \"email\":\"gonihales@gmail.com\",\r\n    \"message\":\"Hello, How are you?\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
