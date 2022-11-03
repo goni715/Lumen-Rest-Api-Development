@@ -32,6 +32,24 @@ class ProjectController extends Controller
 
    function onSelectDetails(Request $req){
 
+       $myJsonData = $req->getContent();
+       $ContactArray = json_decode($myJsonData,true);
+
+       $id = $ContactArray['id'];
+
+
+        $result = DB::table('projects_table')->where('id','=', $id)->get();
+
+         return $result;
+    
+    }
+ 
+
+
+
+
+  /* function onSelectDetails(Request $req){
+
         $id = $req->input('id');
 
         $result = DB::table('projects_table')->where('id','=', $id)->get();
@@ -39,7 +57,7 @@ class ProjectController extends Controller
          return $result;
     
     }
-
+ */
 
 
 

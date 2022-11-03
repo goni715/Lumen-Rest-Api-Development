@@ -37,7 +37,8 @@ class Authenticate
     {
        
          return $next($request)
-         ->header('Access-Control-Allow-Origin','*');
+         ->header('Access-Control-Allow-Origin','*')
+         ->header('Access-Control-Allow-Methods','*');
 
     }
 }
